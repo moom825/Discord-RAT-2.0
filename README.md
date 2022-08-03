@@ -3,7 +3,7 @@ Discord Remote Administration Tool fully written in c#.
 
 This is a RAT controlled over Discord with over 40 post exploitation modules.
 
-The output file size also around ~70kb!
+The output file size also around ~75kb!
 
 ## **Disclaimer:**
 
