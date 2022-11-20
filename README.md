@@ -78,4 +78,4 @@ Available commands are :
 ## **Contact:**
 Feel free to contact me if you have any problems.
 if you want something added feel free to ask by joining by discord server.\
-https://discord.gg/THyA9xZPc9.
+https://discord.gg/cKwkkC2U4c.
