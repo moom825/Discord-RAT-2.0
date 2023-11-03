@@ -75,7 +75,6 @@ Available commands are :
 --> !help = This help menu
 ```
 
-## **Contact:**
-Feel free to contact me if you have any problems.
-if you want something added feel free to ask by joining by discord server.\
-https://discord.gg/cKwkkC2U4c.
+## Donation
+### Buy me a coffee!
+BTC: bc1qg4zy8w5swc66k9xg29c2x6ennn5cyv2ytlp0a6
